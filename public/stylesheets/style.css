@@ -1,0 +1,88 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+div#mapContainer{
+	width: 60%;
+	height: 600px;
+	float:left;
+}
+
+div#infoContainer{
+	width: 30%;
+	float: left;
+	padding: 0 20px 20px 20px;
+}
+
+div.leaflet-popup-content img{
+	width: 150px;
+	height: 150px;
+}
+
+div.description{
+
+	background-color: #999999;
+	border: solid #333333 1px;
+}
+
+div.info-list-item{
+	padding: 3px;
+	margin-bottom: 5px;
+	background-color: #EE8262;
+	border: solid #edf143 0.08em;
+	width: 100%;
+	overflow: hidden;
+	
+
+}
+
+div.info-list-txt{
+
+	margin: 5px;
+	float: left;
+	width: 50%;
+	color: #ffffff;
+}
+
+div.info-list-item div.title{
+	padding-bottom: 5px;
+	font-weight: bold;
+	letter-spacing:2px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+div.info-list-item:hover{
+	
+	background-color: #f8f9b1;
+	border: solid #FF4500 0.1em;
+	
+
+}
+
+div.info-list-item:hover div.info-list-txt{
+	color: #333333;
+}
+
+div.info-list-item:hover div.title{
+	color: #ffffff;
+}
+
+
+div.info-list-img{
+	float: right;
+	width: 40%;
+	padding: 3px;
+
+}
+
+div.info-list-img img{
+	height: 100px !important;
+	width: 100px !important;
+}
+
